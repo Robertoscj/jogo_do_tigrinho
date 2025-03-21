@@ -106,8 +106,8 @@ O projeto segue a Clean Architecture com as seguintes camadas:
 1. Instale o SQL Server
 2. Atualize a connection string em `appsettings.json`
 3. Execute os scripts de criação do banco:
-   - `CreateDatabase.sql`
-   - `SeedData.sql`
+   - `DadosIniciais.sql`
+   - `TigrinhoGame.sql`
 
 ## 🚦 Health Checks
 
