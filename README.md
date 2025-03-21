@@ -67,6 +67,45 @@ O projeto segue a Clean Architecture com as seguintes camadas:
 - URLs otimizadas via CloudFront
 - Cache de assets
 
+### Implementações AWS Pendentes
+
+#### 1. Amazon CloudWatch
+- Integração com Serilog para logs centralizados
+- Métricas personalizadas do jogo
+- Dashboards de monitoramento
+- Alertas automáticos
+- Monitoramento de RTP em tempo real
+
+#### 2. Amazon ElastiCache (Redis)
+- Cache distribuído para sessões
+- Cache de resultados de jogadas
+- Cache de dados frequentes
+- Otimização de performance
+
+#### 3. Amazon DynamoDB
+- Armazenamento de sessões
+- Histórico de jogadas em tempo real
+- Leaderboards
+- Estatísticas em tempo real
+
+#### 4. AWS WAF & Shield
+- Proteção contra DDoS
+- Regras de segurança personalizadas
+- Proteção contra bots
+- Firewall de aplicação web
+
+#### 5. Amazon EventBridge
+- Eventos assíncronos do jogo
+- Processamento de jackpots
+- Notificações em tempo real
+- Integrações com outros serviços
+
+#### 6. AWS Lambda
+- Processamento de eventos assíncronos
+- Cálculos de estatísticas
+- Geração de relatórios
+- Funções auxiliares
+
 ## 🎮 Sistema do Jogo
 
 ### Configurações
