@@ -1,9 +1,13 @@
+using Amazon.S3;
+using Amazon.SecretsManager;
+using Amazon.SimpleSystemsManagement;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using TigrinhoGame.Domain.Interfaces;
 using TigrinhoGame.Infrastructure.Data;
 using TigrinhoGame.Infrastructure.Repositories;
 using TigrinhoGame.Infrastructure.Services;
+using TigrinhoGame.Infrastructure.Services.AWS;
 
 namespace TigrinhoGame.Infrastructure
 {
@@ -27,6 +31,16 @@ namespace TigrinhoGame.Infrastructure
 
             // Register services
             services.AddScoped<IRNGService, RNGService>();
+
+            // Configuração do AWS SDK
+            services.AddAWSService<IAmazonS3>();
+            services.AddAWSService<IAmazonSecretsManager>();
+            services.AddAWSService<IAmazonSimpleSystemsManagement>();
+
+            // Registro dos serviços AWS
+            services.AddScoped<IAwsStorageService, AwsStorageService>();
+            services.AddScoped<IGameAssetsService, GameAssetsService>();
+            services.AddScoped<ISecretsService, SecretsService>();
 
             return services;
         }

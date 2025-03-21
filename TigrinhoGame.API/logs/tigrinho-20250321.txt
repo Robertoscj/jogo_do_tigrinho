@@ -502,3 +502,18 @@ DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
 2025-03-21 13:39:28.171 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/index.html - 200 null text/html;charset=utf-8 7.3624ms
 2025-03-21 13:39:28.251 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - null null
 2025-03-21 13:39:28.263 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.0662ms
+2025-03-21 15:18:22.685 -03:00 [INF] User profile is available. Using 'C:\Users\npcms\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-21 15:18:22.918 -03:00 [INF] Now listening on: http://localhost:5000
+2025-03-21 15:18:22.922 -03:00 [INF] Now listening on: https://localhost:5001
+2025-03-21 15:18:22.924 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-21 15:18:22.926 -03:00 [INF] Hosting environment: Production
+2025-03-21 15:18:22.927 -03:00 [INF] Content root path: C:\Users\npcms\OneDrive\Área de Trabalho\jogo_do_tigrinho\TigrinhoGame.API
+2025-03-21 15:18:26.827 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/index.html - null null
+2025-03-21 15:18:27.018 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/index.html - 200 null text/html;charset=utf-8 192.6274ms
+2025-03-21 15:18:27.256 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - null null
+2025-03-21 15:18:27.508 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 251.4602ms
+2025-03-21 15:19:55.325 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/index.html - null null
+2025-03-21 15:19:55.343 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/index.html - 200 null text/html;charset=utf-8 18.5313ms
+2025-03-21 15:19:55.770 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - null null
+2025-03-21 15:19:55.823 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 53.1008ms
+2025-03-21 15:21:03.902 -03:00 [INF] Application is shutting down...
